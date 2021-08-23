@@ -46,5 +46,5 @@ with zipfile.ZipFile("Archivename", "Mode", "Compression Mode") as zipper:
     location/fileone.txt and 
     location-2/filetwo.txt
     <br>
-    to avoid such situtation, write method of ZipFile supports arcname.
+    To avoid such situtation, write method of ZipFile supports arcname.
     This basically remove the provided path from filepath
