@@ -48,3 +48,13 @@ with zipfile.ZipFile("Archivename", "Mode", "Compression Mode") as zipper:
     <br>
     To avoid such situtation, write method of ZipFile supports arcname.
     This basically remove the provided path from filepath
+2. For Extracting Archive
+````python
+    with zipfile.ZipFile(archive, 'r') as zipfile_:
+        zipfile_.extractall(filepath)
+````
+**Extractall:**
+    Extract all the contents inside the archive
+
+*filepath:* (optional)
+    Path to where file is to be extracted
