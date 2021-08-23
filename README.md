@@ -56,6 +56,6 @@ This program uses the python module named [zipfile](https://docs.python.org/3/li
     ````
     **Extractall:**
         Extract all the contents inside the archive
-
+    <br>
     *filepath:* (optional)
         Path to where file is to be extracted
