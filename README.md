@@ -17,7 +17,7 @@ with zipfile.ZipFile("Archivename", "Mode", "Compression Mode") as zipper:
     zipper.write("Filepath[Filename]", "Arcname")
 ````
 **Archivename:** (Required)
-    The name of archive that will be created with supported extension__
+    The name of archive that will be created with supported extension <br>
     Example: archive.rar
 
 **Mode:** (Required)
