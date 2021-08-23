@@ -40,11 +40,11 @@ with zipfile.ZipFile("Archivename", "Mode", "Compression Mode") as zipper:
 **Arcname:** (Optional)
     Basename or Absolute file path
     Sometime, when we want to add file from different location to the archive like
-        fileone: /path/location/fileone.txt and
-        filetwo: /path/location-2/filetwo.txt
-        then the files will he added as
-        location/fileone.txt and 
-        location-2/filetwo.txt
+    fileone: /path/location/fileone.txt and
+    filetwo: /path/location-2/filetwo.txt
+    then the files will he added as
+    location/fileone.txt and 
+    location-2/filetwo.txt
 
-        to avoid such situtation, write method of ZipFile supports arcname.
-        This basically remove the provided path from filepath
+    to avoid such situtation, write method of ZipFile supports arcname.
+    This basically remove the provided path from filepath
