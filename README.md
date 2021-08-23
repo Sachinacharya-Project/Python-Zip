@@ -17,7 +17,7 @@ with zipfile.ZipFile("Archivename", "Mode", "Compression Mode") as zipper:
     zipper.write("Filepath[Filename]", "Arcname")
 ````
 **Archivename:** (Required)
-    The name of archive that will be created with supported extension
+    The name of archive that will be created with supported extension__
     Example: archive.rar
 
 **Mode:** (Required)
@@ -36,7 +36,7 @@ with zipfile.ZipFile("Archivename", "Mode", "Compression Mode") as zipper:
 **Filepath or Filename:** (Required)
     Full path of file or filename (If exist in same location as the location of execution of script) that is to be added to the archive
     Path maybe Relative or Absolute
-    
+
 **Arcname:** (Optional)
     Basename or Absolute file path
     Sometime, when we want to add file from different location to the archive like
